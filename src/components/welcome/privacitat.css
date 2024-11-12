@@ -1,0 +1,56 @@
+[data-custom-classNameName='body'], [data-custom-className='body'] * {
+    background: transparent !important;
+}
+
+[data-custom-classNameName='title'], [data-custom-className='title'] * {
+    font-family: Arial !important;
+    font-size: 26px !important;
+    color: #000000 !important;
+}
+
+[data-custom-classNameName='subtitle'], [data-custom-className='subtitle'] * {
+    font-family: Arial !important;
+    color: #595959 !important;
+    font-size: 14px !important;
+}
+
+[data-custom-className='heading_1'], [data-custom-className='heading_1'] * {
+    font-family: Arial !important;
+    font-size: 19px !important;
+    color: #000000 !important;
+}
+
+[data-custom-className='heading_2'], [data-custom-className='heading_2'] * {
+    font-family: Arial !important;
+    font-size: 17px !important;
+    color: #000000 !important;
+}
+
+[data-custom-className='body_text'], [data-custom-className='body_text'] * {
+    color: #595959 !important;
+    font-size: 14px !important;
+    font-family: Arial !important;
+}
+
+[data-custom-className='link'], [data-custom-className='link'] * {
+    color: #3030F1 !important;
+    font-size: 14px !important;
+    font-family: Arial !important;
+    word-break: break-word !important;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul > li > ul {
+    list-style-type: circle;
+}
+
+ul > li > ul > li > ul {
+    list-style-type: square;
+}
+
+ol li {
+    font-family: Arial;
+}

@@ -1,0 +1,18 @@
+body {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+}
